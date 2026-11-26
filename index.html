@@ -21,9 +21,37 @@
 .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;align-items:start}.about-big{font-size:clamp(38px,6vw,82px);line-height:.95;letter-spacing:-.05em;font-weight:400}.about-copy{max-width:650px;color:#b6b2ac;font-size:16px;line-height:1.75}.about-copy p{margin:0 0 22px}
 .contact{border:1px solid var(--line);padding:6vw;display:grid;grid-template-columns:1fr 1fr;gap:5vw}.contact h2{font-size:clamp(52px,7vw,100px);line-height:.82;letter-spacing:-.06em;font-weight:400;margin:0}.contact-info{display:flex;flex-direction:column;justify-content:center}.contact-link{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding:20px 0;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.contact-link:hover{opacity:.65}
 .footer{padding:34px 5vw 60px;display:flex;justify-content:space-between;gap:20px;color:#8f8b85}.footer-name{font-size:11px;letter-spacing:.2em}.footer-meta{text-align:right;font-size:10px;letter-spacing:.12em;line-height:1.7}
-@media(max-width:800px){.nav a:nth-child(2),.nav a:nth-child(3){display:none}.hero{grid-template-columns:1fr;padding-top:110px}.hero-media{width:100%;aspect-ratio:1340/602;height:auto;min-height:0}.choice-grid,.video-grid,.contact{grid-template-columns:1fr}.section{padding:18vw 5vw}.gallery{columns:2 180px}.footer{display:block}.footer-meta{text-align:left;margin-top:20px}}
+@media(max-width:800px){.nav a:nth-child(2),.nav a:nth-child(3){display:none}.header{padding:18px 5vw}.logo{font-size:11px;letter-spacing:.18em}.nav{gap:14px;font-size:9px}.lang-switch{position:absolute;left:50%;top:58px;transform:translateX(-50%);margin-left:0;padding:2px 4px;border:1px solid rgba(23,23,23,.12);border-radius:999px;background:rgba(255,255,255,.82)!important;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}.theme-toggle{position:absolute;left:calc(50% + 108px);top:58px;transform:translateX(-50%);margin:0;width:34px;height:34px;z-index:5;background:rgba(255,255,255,.82);border-color:rgba(23,23,23,.12)}.theme-toggle:hover{transform:translateX(-50%) translateY(-1px)}.dark-mode .theme-toggle{background:rgba(8,8,8,.78);border-color:rgba(255,255,255,.16)}.hero{grid-template-columns:1fr;padding-top:110px}.hero-media{width:100%;aspect-ratio:1340/602;height:auto;min-height:0}.choice-grid,.video-grid,.contact{grid-template-columns:1fr}.section{padding:18vw 5vw}.gallery{columns:2 180px}.footer{display:block}.footer-meta{text-align:left;margin-top:20px}}
 @media(max-width:520px){.gallery{columns:1}.choice{min-height:300px}.choice h2{font-size:72px}}
-.lang-switch{display:flex;align-items:center;gap:5px;margin-left:8px}.lang-btn{background:transparent;border:0;color:#8f8b85;font:inherit;font-size:9px;letter-spacing:.16em;cursor:pointer;padding:5px}.lang-btn.active,.lang-btn:hover{color:#f3f1ed}.top-contact{display:flex;gap:18px;align-items:center}.instagram-link{display:inline-flex!important;align-items:center;gap:7px;padding:8px 10px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.04)}.instagram-link svg,.telegram-link svg{width:17px;height:17px;display:block;flex:0 0 auto}.instagram-link svg{stroke:url(#igGradient);fill:none;stroke-width:1.8}.instagram-link svg .ig-dot{fill:url(#igGradient);stroke:none}.telegram-link svg{fill:#229ED9;stroke:none}.telegram-link{display:inline-flex!important;align-items:center;gap:7px;padding:8px 10px;border:1px solid rgba(34,158,217,.28);border-radius:999px;background:rgba(34,158,217,.06)}.telegram-link:hover{opacity:1!important;border-color:rgba(34,158,217,.65)}.instagram-link:hover{opacity:1!important;border-color:#777}.series-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.series-card{border:1px solid var(--line);background:linear-gradient(145deg,#121211,#0b0b0b);overflow:hidden;transition:.3s}.series-card:hover{transform:translateY(-3px);border-color:#666}.series-card-preview{display:grid;grid-template-columns:1fr 1fr;height:300px;overflow:hidden}.series-card-preview img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.92);transition:transform .7s cubic-bezier(.2,.7,.2,1)}.series-card:hover .series-card-preview img{transform:scale(1.025)}.series-card-body{padding:28px;display:flex;flex-direction:column;gap:18px}.series-card-body h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,5vw,64px);font-weight:400;letter-spacing:-.05em;line-height:.9;margin:0}.series-card-body p{color:#aaa69f;line-height:1.6;margin:0;max-width:520px}.series-card-body .btn{align-self:flex-start}.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.price-card{border:1px solid var(--line);padding:34px;background:linear-gradient(145deg,#121211,#0b0b0b);min-height:360px;display:flex;flex-direction:column;justify-content:space-between}.price-card h3{font-size:clamp(42px,5vw,72px);font-weight:400;letter-spacing:-.05em;line-height:.9;margin:16px 0}.price-card .price-main{font-size:38px;letter-spacing:-.04em}.price-card .price-main span{font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}.price-lines{margin-top:24px;color:#aaa69f;font-size:13px;line-height:1.8}.price-lines strong{color:#f3f1ed;font-weight:400}.contact-mini{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.contact-mini .btn{min-height:44px}.video-card .drive-link{margin-top:18px}.subtle{color:var(--muted);font-size:11px;line-height:1.6}@media(max-width:800px){.price-grid{grid-template-columns:1fr}.top-contact{display:none}.lang-switch{margin-left:0}}</style><style>
+
+.theme-toggle{appearance:none;border:1px solid rgba(23,23,23,.14);background:rgba(255,255,255,.48);color:#4f4d49;width:30px;height:30px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:.2s ease;flex:0 0 auto;margin-left:4px}.theme-toggle:hover{background:rgba(255,255,255,.78);transform:translateY(-1px)}.theme-toggle svg{width:15px;height:15px;display:block}.dark-mode{--bg:#0b0b0b;--fg:#f3f1ed;--muted:#a7a39d;--line:#292826;--card:#111110;--accent:#fff}.dark-mode .header{background:linear-gradient(180deg,rgba(8,8,8,.96),rgba(8,8,8,.78),transparent);color:var(--fg)}.dark-mode .nav{color:#d7d3cd}.dark-mode .lang-switch{background:rgba(8,8,8,.7)!important;border-color:rgba(255,255,255,.12)!important;box-shadow:0 6px 20px rgba(0,0,0,.2)}.dark-mode .lang-btn{color:#8f8b85}.dark-mode .lang-btn.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.07);color:#f3f1ed}.dark-mode .lang-btn:hover{color:#f3f1ed;border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.05)}.dark-mode .theme-toggle{border-color:rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:#f3f1ed}.dark-mode .theme-toggle:hover{background:rgba(255,255,255,.12)}
+.lang-switch{display:flex;align-items:center;gap:5px;margin-left:8px;flex:0 0 auto}.lang-btn{appearance:none;background:transparent;border:1px solid transparent;color:#8f8b85;font:inherit;font-size:9px;letter-spacing:.12em;line-height:1;cursor:pointer;padding:4px 6px;border-radius:999px;min-width:43px;height:28px;display:inline-flex;align-items:center;justify-content:center;gap:4px;transition:.18s ease}.lang-flag{font-size:14px;line-height:1}.lang-code{font-size:8px;letter-spacing:.1em}.lang-btn.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.07);transform:scale(1.04);color:#f3f1ed}.lang-btn:hover{color:#f3f1ed;border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.05)}.top-contact{display:flex;gap:18px;align-items:center}.instagram-link{display:inline-flex!important;align-items:center;gap:7px;padding:8px 10px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.04)}.instagram-link svg,.telegram-link svg{width:17px;height:17px;display:block;flex:0 0 auto}.instagram-link svg{stroke:url(#igGradient);fill:none;stroke-width:1.8}.instagram-link svg .ig-dot{fill:url(#igGradient);stroke:none}.telegram-link svg{fill:#229ED9;stroke:none}.telegram-link{display:inline-flex!important;align-items:center;gap:7px;padding:8px 10px;border:1px solid rgba(34,158,217,.28);border-radius:999px;background:rgba(34,158,217,.06)}.telegram-link:hover{opacity:1!important;border-color:rgba(34,158,217,.65)}.instagram-link:hover{opacity:1!important;border-color:#777}.series-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.series-card{border:1px solid var(--line);background:linear-gradient(145deg,#121211,#0b0b0b);overflow:hidden;transition:.3s}.series-card:hover{transform:translateY(-3px);border-color:#666}.series-card-preview{display:grid;grid-template-columns:1fr 1fr;height:300px;overflow:hidden}.series-card-preview img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.92);transition:transform .7s cubic-bezier(.2,.7,.2,1)}.series-card:hover .series-card-preview img{transform:scale(1.025)}.series-card-body{padding:28px;display:flex;flex-direction:column;gap:18px}.series-card-body h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,5vw,64px);font-weight:400;letter-spacing:-.05em;line-height:.9;margin:0}.series-card-body p{color:#aaa69f;line-height:1.6;margin:0;max-width:520px}.series-card-body .btn{align-self:flex-start}.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.price-card{border:1px solid var(--line);padding:34px;background:linear-gradient(145deg,#121211,#0b0b0b);min-height:360px;display:flex;flex-direction:column;justify-content:space-between}.price-card h3{font-size:clamp(42px,5vw,72px);font-weight:400;letter-spacing:-.05em;line-height:.9;margin:16px 0}.price-card .price-main{font-size:38px;letter-spacing:-.04em}.price-card .price-main span{font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}.price-lines{margin-top:24px;color:#aaa69f;font-size:13px;line-height:1.8}.price-lines strong{color:#f3f1ed;font-weight:400}.contact-mini{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.contact-mini .btn{min-height:44px}.video-card .drive-link{margin-top:18px}.subtle{color:var(--muted);font-size:11px;line-height:1.6}@media(max-width:800px){.price-grid{grid-template-columns:1fr}.top-contact{display:none}.lang-switch{margin-left:0}}
+/* v11 — stronger dark-mode contrast for portfolio choice cards */
+.dark-mode .choice,
+.dark-mode .video-card,
+.dark-mode .series-card,
+.dark-mode .price-card {
+  background: linear-gradient(145deg,#171716,#0b0b0b) !important;
+  border-color: #292826 !important;
+  color: #f7f5f1 !important;
+}
+.dark-mode .choice h2,
+.dark-mode .choice p,
+.dark-mode .choice small,
+.dark-mode .choice .arrow,
+.dark-mode .video-card h3,
+.dark-mode .video-card p { opacity:1 !important; }
+.dark-mode .choice h2,
+.dark-mode .video-card h3 { color:#ffffff !important; }
+.dark-mode .choice p,
+.dark-mode .video-card p { color:#e1ddd6 !important; }
+.dark-mode .choice small,
+.dark-mode .video-card .kicker { color:#d0cbc3 !important; }
+.dark-mode .choice:after { border-color:rgba(255,255,255,.12) !important; }
+.dark-mode .choice:before { border-color:rgba(255,255,255,.13) !important; box-shadow:0 0 0 32px rgba(255,255,255,.035),0 0 0 64px rgba(255,255,255,.022) !important; }
+.dark-mode .choice-collage:before { background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.16) 55%,rgba(0,0,0,.72) 100%) !important; }
+
+</style><style>
 /* Premium branded social contacts */
 .top-contact{display:flex;align-items:center;gap:10px;margin-left:6px}
 .brand-social{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-size:12px;letter-spacing:.04em;white-space:nowrap}
@@ -326,6 +354,161 @@
   .choice-collage .collage-f6{width:35%;height:44%}
 }
 </style>
+
+<style id="pachev-white-wedding-theme">
+:root{--bg:#f1f1ef;--fg:#181818;--muted:#74736f;--line:#d7d7d3;--card:#f8f8f6;--accent:#181818}
+body{background:var(--bg);color:var(--fg)}
+.header{background:linear-gradient(180deg,rgba(241,241,239,.96),rgba(241,241,239,.78),transparent);color:var(--fg)}
+.nav{color:#4e4a45}.nav a:hover{opacity:.55}
+.logo{color:#171717}
+.eyebrow,.kicker{color:#77736d}.lead{color:#5f5b56}
+.btn{border-color:#bdb9b3;color:#171717;background:transparent}.btn:hover{border-color:#77736d}.btn.primary{background:#171717;color:#fff;border-color:#171717}
+.hero-media{background:#f3f1ed}
+.hero-media:after{color:rgba(23,23,23,.62);border-left-color:rgba(23,23,23,.22)}
+.section-head{border-bottom-color:var(--line)}
+.section-title:before{background:#9a968f}.section-note{color:#77736d}
+.choice,.video-card,.series-card,.price-card{background:linear-gradient(145deg,#fff,#f5f3f0);border-color:var(--line)}
+.choice:after{border-color:rgba(23,23,23,.08)}
+.choice:before{border-color:rgba(23,23,23,.10);box-shadow:0 0 0 32px rgba(23,23,23,.018),0 0 0 64px rgba(23,23,23,.012)}
+.choice small,.series-meta{color:#77736d}.choice p,.video-card p,.series-card-body p,.price-lines,.about-copy{color:#69655f}
+.choice:hover,.series-card:hover{border-color:#aaa69f}
+.video-card{background:radial-gradient(circle at 90% 15%,rgba(0,0,0,.035),transparent 28%),linear-gradient(145deg,#fff,#f5f3f0)}
+.video-card:after{color:rgba(23,23,23,.045)}
+.series-feature{background:#fff;border-color:var(--line)}
+.gallery-item{background:#eeeae5}.tag{background:rgba(255,255,255,.9);color:#171717}
+.pill{border-color:var(--line);color:#55514c}.pill:hover{border-color:#99948e}
+.contact{border-color:var(--line);background:#fff}.contact-link{border-bottom-color:var(--line)}
+.footer{color:#77736d}
+.hero-portfolio-link{border-color:rgba(23,23,23,.18);background:rgba(255,255,255,.62);color:#171717}
+.hero-portfolio-link:hover{border-color:rgba(23,23,23,.48);background:#fff}
+.instagram-link{border-color:rgba(23,23,23,.16);background:rgba(255,255,255,.7)}
+.telegram-link{background:rgba(34,158,217,.05)}
+.lang-switch{background:rgba(255,255,255,.82)!important;border-color:rgba(23,23,23,.12)!important;box-shadow:0 6px 20px rgba(23,23,23,.06)}
+.lang-btn{color:#77736d}.lang-btn.active{border-color:rgba(23,23,23,.25);background:rgba(23,23,23,.06);color:#171717}.lang-btn:hover{color:#171717;border-color:rgba(23,23,23,.18);background:rgba(23,23,23,.04)}
+.price-card .price-main span{color:#77736d}.price-lines strong{color:#171717}
+.subtle{color:#77736d}
+@media(max-width:800px){.header{background:linear-gradient(180deg,rgba(241,241,239,.97),rgba(241,241,239,.82),transparent)}}
+</style>
+<style id="dark-contrast-fix">
+.dark-mode .choice h2,
+.dark-mode .video-card h3,
+.dark-mode .series-card h3,
+.dark-mode .series-copy h3,
+.dark-mode .about-big,
+.dark-mode .section-title { color:#f7f5f1 !important; }
+.dark-mode .choice p,
+.dark-mode .video-card p,
+.dark-mode .series-copy p { color:#d2cec7 !important; }
+.dark-mode .choice small,
+.dark-mode .video-card .kicker,
+.dark-mode .series-meta,
+.dark-mode .section-note { color:#c4c0b9 !important; }
+.dark-mode .choice .arrow { color:#f7f5f1 !important; }
+</style>
+<style id="dark-mode-collage-text-fix">
+/* v12 — keep portfolio card typography crisp above the collage overlay */
+.choice > small,
+.choice > div,
+.choice > .arrow { position:relative !important; z-index:10 !important; }
+.dark-mode .choice-collage + small,
+.dark-mode .choice-collage + small + div,
+.dark-mode .choice-collage + small + div + .arrow {
+  color:#242321 !important;
+  opacity:1 !important;
+}
+.dark-mode .choice-collage + small { color:#4f4c47 !important; }
+.dark-mode .choice-collage + small + div h2 { color:#171717 !important; text-shadow:none !important; opacity:1 !important; }
+.dark-mode .choice-collage + small + div p { color:#4f4c47 !important; opacity:1 !important; }
+.dark-mode .choice-collage + small + div + .arrow { color:#171717 !important; opacity:1 !important; }
+</style>
+
+<style id="light-contact-contrast-fix">
+/* Keep contact typography clearly readable in the light theme */
+body:not(.dark-mode) .contact {
+  color: #171717 !important;
+  background: #fff !important;
+}
+body:not(.dark-mode) .contact h2 {
+  color: #171717 !important;
+  opacity: 1 !important;
+}
+body:not(.dark-mode) .contact-link {
+  color: #3f3d39 !important;
+  opacity: 1 !important;
+}
+body:not(.dark-mode) .contact-link svg {
+  color: #171717 !important;
+  stroke: #171717 !important;
+  opacity: 1 !important;
+}
+body:not(.dark-mode) .contact-link:hover {
+  opacity: .72 !important;
+}
+</style>
+
+<style id="pachev-final-portfolio-contrast">
+/* Final Portfolio card contrast fix — applies to both themes */
+.choice > .choice-collage {
+  opacity: 1 !important;
+  z-index: 2 !important;
+}
+.choice > small,
+.choice > div,
+.choice > .arrow {
+  position: relative !important;
+  z-index: 10 !important;
+  opacity: 1 !important;
+}
+
+/* Light theme: dark typography on the light card */
+body:not(.dark-mode) .choice {
+  background: #f8f8f6 !important;
+  color: #171717 !important;
+}
+body:not(.dark-mode) .choice > small {
+  color: #55524d !important;
+}
+body:not(.dark-mode) .choice > div h2 {
+  color: #171717 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+body:not(.dark-mode) .choice > div p {
+  color: #4f4c47 !important;
+  opacity: 1 !important;
+}
+body:not(.dark-mode) .choice > .arrow {
+  color: #171717 !important;
+  opacity: 1 !important;
+}
+
+/* Dark theme: light typography on the dark card */
+body.dark-mode .choice {
+  background: #111110 !important;
+  color: #f7f5f1 !important;
+}
+body.dark-mode .choice > small {
+  color: #d0cbc3 !important;
+}
+body.dark-mode .choice > div h2 {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+body.dark-mode .choice > div p {
+  color: #e1ddd6 !important;
+  opacity: 1 !important;
+}
+body.dark-mode .choice > .arrow {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Keep the collage itself visible without washing out the typography */
+.choice > .choice-collage:before {
+  opacity: 1 !important;
+}
+</style>
 </head><body><svg height="0" style="position:absolute" width="0"><defs><lineargradient id="igGradient" x1="0%" x2="100%" y1="100%" y2="0%"><stop offset="0%" stop-color="#F58529"></stop><stop offset="45%" stop-color="#DD2A7B"></stop><stop offset="75%" stop-color="#8134AF"></stop><stop offset="100%" stop-color="#515BD4"></stop></lineargradient></defs></svg>
 <header class="header"><a class="logo" href="#top">PACHEV ANATOLIY</a><nav class="nav"><a data-i18n="navPortfolio" data-view="portfolio" href="#portfolio">Portfolio</a><a data-i18n="navPhoto" data-view="photo" href="#photo">Photo</a><a data-i18n="navVideo" data-view="video" href="#video">Video</a><a data-i18n="navPrice" data-view="price" href="#price">Price</a><a data-i18n="navContact" data-view="contact" href="#contact">Contact</a><span class="top-contact">
 <a aria-label="Instagram" class="brand-social instagram-brand" href="https://www.instagram.com/anatoliy_pachev_photo/" rel="noopener" target="_blank">
@@ -336,7 +519,7 @@
 <a aria-label="Telegram" class="brand-social telegram-brand" href="https://t.me/Anatoliy_7777777" rel="noopener" target="_blank">
 <span aria-hidden="true" class="brand-icon telegram-icon"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" fill="#229ED9" r="11"></circle><path d="M18.55 6.55 15.7 17.2c-.22.8-.65 1-1.32.62l-3.7-2.72-1.78 1.72c-.2.2-.36.36-.73.36l.26-3.78 6.86-6.2c.3-.27-.07-.42-.46-.15L8 12.28l-3.56-1.12c-.77-.24-.78-.78.16-1.1l13.9-5.36c.66-.24 1.24.16 1.05 1.85Z" fill="white"></path></svg></span><span>Telegram</span>
 </a>
-</span><span aria-label="Language" class="lang-switch"><button class="lang-btn active" data-lang="en">EN</button><button class="lang-btn" data-lang="ro">RO</button><button class="lang-btn" data-lang="ru">RU</button></span></nav></header>
+</span><button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><span aria-label="Language" class="lang-switch"><button class="lang-btn active" data-lang="en" aria-label="English" title="English"><span class="lang-flag">🇬🇧</span><span class="lang-code">EN</span></button><button class="lang-btn" data-lang="ro" aria-label="Română" title="Română"><span class="lang-flag">🇷🇴</span><span class="lang-code">RO</span></button><button class="lang-btn" data-lang="ru" aria-label="Русский" title="Русский"><span class="lang-flag">🇷🇺</span><span class="lang-code">RU</span></button></span></nav></header>
 <main id="top">
 <section class="hero"><div class="hero-copy">
 <div aria-label="Social contacts" class="hero-social">
@@ -501,6 +684,12 @@ en:{navPortfolio:'Portfolio',navPhoto:'Photo',navVideo:'Video',navPrice:'Price',
 ro:{navPortfolio:'Portofoliu',navPhoto:'Foto',navVideo:'Video',navPrice:'Prețuri',navContact:'Contact',heroEyebrow:'Fotograf de nuntă · Videograf',heroLead:'Fotografie de nuntă și videografie cinematografică. Povești personale, elegante și atemporale din Chișinău până în Europa.',heroCta:'Vezi portofoliul',heroVideoPortfolio:'Portofoliu video',heroPhotoPortfolio:'Portofoliu foto',portfolioTitle:'Portofoliu',portfolioNote:'Fotografie / Videografie',photoPortfolioTitle:'Portofoliu foto',photoPortfolioNote:'Serii de nuntă',videoKicker:'01 · Povești cinematografice',videoChoice:'Filme de nuntă, highlight-uri cinematografice și clipuri scurte. Deschide portofoliul video și alege un film sau un clip.',photoKicker:'02 · Imagini',photoChoice:'Fotografie de nuntă prezentată ca serii curatoriate. Deschide o poveste și vezi galeria completă.',videoTitle:'Portofoliu video',videoNote:'Filme / Clipuri',filmsKicker:'01 · Filme de nuntă',filmsText:'Povești complete de nuntă și filme cinematografice. Deschide filmele selectate pe Google Drive.',openFilms:'Deschide filmele ↗',clipsKicker:'02 · Clipuri de nuntă',clipsText:'Highlight-uri de nuntă, reels și momente cinematografice selectate. Deschide clipurile pe Google Drive.',openClips:'Deschide clipurile ↗',seriesMeta:'Serie de nuntă · 13.08.2026',seriesTitle:'Vlad & Anna.',seriesMeta2:'Nuntă în Odesa · Cris & Olga',seriesTitle2:'Cris & Olga.',seriesText2:'O poveste de nuntă selectată din Odesa. Vezi seria foto completă în galeria clientului.',openSeries2:'Deschide seria foto ↗',seriesMeta3:'Nuntă în Italia · Sudul Italiei',seriesTitle3:'Cristina & Mateo.',seriesText3:'O poveste frumoasă de nuntă destination din sudul Italiei. Vezi seria foto completă în galeria clientului.',openSeries3:'Deschide seria foto ↗',seriesText:'O poveste de nuntă selectată. Vezi seria foto completă și toate imaginile din galeria clientului.',openSeries:'Deschide seria foto ↗',priceTitle:'Prețuri',priceNote:'Fotografie / Videografie de nuntă',videoPriceKicker:'01 · Videografie',videoPriceTitle:'Video de nuntă',upTo12:'până la 12 ore',halfDayVideo:'6 ore — €750',videoIncluded:'Include: 1 clip cinematografic (2–3 min), film de nuntă (15–25 min) și filmare cu drona.',secondVideographer:'Al doilea videograf — +€500',bookVideo:'Rezervă videografia ↗',photoPriceKicker:'02 · Fotografie',photoPriceTitle:'Foto de nuntă',upTo12Photo:'până la 12 ore',halfDayPhoto:'6 ore — €750',photoIncluded:'Fotografie profesională de nuntă cu imagini selectate și editate cu atenție.',secondPhotographer:'Al doilea fotograf — +€500',bookPhoto:'Rezervă fotografia ↗',aboutTitle:'Despre mine',aboutNote:'Omul din spatele camerei',aboutBig:'Povești care se simt <em>personale</em>, naturale și cinematografice.',aboutP1:'Sunt Anatoliy Pachev, fotograf și videograf de nuntă, cu sediul în Chișinău, Moldova. Creez fotografii și filme cu un stil editorial, emoție naturală și atenție la detalii.',aboutP2:'Disponibil pentru nunți, evenimente destination, portrete și proiecte comerciale selectate în Moldova și Europa.',contactTitle:'Contact',contactNote:'Disponibil pentru proiecte selectate',contactBig:'Hai să creăm<br>povestea ta.',locationLabel:'Locație',footerMeta:'Fotograf de nuntă & Videograf<br>Chișinău · Moldova · Europa<br>© 2026'},
 ru:{navPortfolio:'Портфолио',navPhoto:'Фото',navVideo:'Видео',navPrice:'Цены',navContact:'Контакты',heroEyebrow:'Свадебный фотограф · Видеограф',heroLead:'Свадебная фотография и кинематографичная видеосъёмка. Личные, элегантные и неподвластные времени истории от Кишинёва до Европы.',heroCta:'Смотреть портфолио',heroVideoPortfolio:'Видео портфолио',heroPhotoPortfolio:'Фото портфолио',portfolioTitle:'Портфолио',portfolioNote:'Фото / Видео',photoPortfolioTitle:'Фото портфолио',photoPortfolioNote:'Свадебные серии',videoKicker:'01 · Кинематографичные истории',videoChoice:'Свадебные фильмы, кинематографичные клипы и короткие видео. Откройте видеопортфолио и выберите фильм или клип.',photoKicker:'02 · Фотография',photoChoice:'Свадебная фотография, представленная отдельными авторскими сериями. Откройте историю и посмотрите полную галерею.',videoTitle:'Видео портфолио',videoNote:'Фильмы / Клипы',filmsKicker:'01 · Свадебные фильмы',filmsText:'Полные свадебные истории и кинематографичные фильмы. Откройте выбранные фильмы на Google Drive.',openFilms:'Открыть фильмы ↗',clipsKicker:'02 · Свадебные клипы',clipsText:'Свадебные highlights, reels и избранные кинематографичные моменты. Откройте клипы на Google Drive.',openClips:'Открыть клипы ↗',seriesMeta:'Избранная свадебная серия · 13.08.2026',seriesTitle:'Влад & Анна.',seriesMeta2:'Свадьба в Одессе · Крис & Ольга',seriesTitle2:'Крис & Ольга.',seriesText2:'Избранная свадебная история из Одессы. Откройте полную фотосерию в галерее клиента.',openSeries2:'Открыть свадебную серию ↗',seriesMeta3:'Свадьба в Италии · Юг Италии',seriesTitle3:'Кристина & Матео.',seriesText3:'Красивая свадебная история на юге Италии. Откройте полную фотосерию в галерее клиента.',openSeries3:'Открыть свадебную серию ↗',seriesText:'Избранная свадебная история. Откройте полную фотосерию и все фотографии в галерее клиента.',openSeries:'Открыть свадебную серию ↗',priceTitle:'Цены',priceNote:'Свадебная фотография / видеография',videoPriceKicker:'01 · Видеография',videoPriceTitle:'Свадебное видео',upTo12:'до 12 часов',halfDayVideo:'6 часов — €750',videoIncluded:'В стоимость входит: 1 клип 2–3 мин, свадебный фильм 15–25 мин и съёмка с дрона.',secondVideographer:'Второй видеограф — +€500',bookVideo:'Заказать видеосъёмку ↗',photoPriceKicker:'02 · Фотография',photoPriceTitle:'Свадебная фотография',upTo12Photo:'до 12 часов',halfDayPhoto:'6 часов — €750',photoIncluded:'Профессиональная свадебная фотосъёмка с тщательным отбором и обработкой фотографий.',secondPhotographer:'Второй фотограф — +€500',bookPhoto:'Заказать фотосъёмку ↗',aboutTitle:'Обо мне',aboutNote:'Человек за камерой',aboutBig:'Истории, которые ощущаются <em>личными</em>, естественными и кинематографичными.',aboutP1:'Я Анатолий Пачев, свадебный фотограф и видеограф из Кишинёва, Молдова. Создаю фотографии и фильмы с editorial-стилистикой, естественными эмоциями и вниманием к деталям.',aboutP2:'Доступен для свадеб, destination-съёмок, портретов и отдельных коммерческих проектов в Молдове и Европе.',contactTitle:'Контакты',contactNote:'Доступен для выбранных проектов',contactBig:'Давайте создадим<br>вашу историю.',locationLabel:'Локация',footerMeta:'Свадебный фотограф & видеограф<br>Кишинёв · Молдова · Европа<br>© 2026'}
 };
+const themeToggle=document.getElementById('themeToggle');
+const savedTheme=localStorage.getItem('pachevTheme');
+if(savedTheme==='dark'){document.body.classList.add('dark-mode');document.getElementById('themeIcon').innerHTML='<path d="M20.5 15.2A8.5 8.5 0 0 1 8.8 3.5 8.5 8.5 0 1 0 20.5 15.2Z"></path>';}
+function updateThemeIcon(){const dark=document.body.classList.contains('dark-mode');document.getElementById('themeIcon').innerHTML=dark?'<path d="M20.5 15.2A8.5 8.5 0 0 1 8.8 3.5 8.5 8.5 0 1 0 20.5 15.2Z"></path>':'<circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>';themeToggle.setAttribute('title',dark?'Light mode':'Dark mode');themeToggle.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');}
+updateThemeIcon();
+themeToggle.addEventListener('click',()=>{document.body.classList.toggle('dark-mode');localStorage.setItem('pachevTheme',document.body.classList.contains('dark-mode')?'dark':'light');updateThemeIcon();});
 function setLang(lang){document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(translations[lang][key]!==undefined)el.innerHTML=translations[lang][key]});document.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));localStorage.setItem('pachevLang',lang)}
 document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
 setLang(localStorage.getItem('pachevLang')||'en');
